@@ -8,6 +8,11 @@ h1 {
     max-width: 200;
     max-height: 75;
 }
+@media (max-width: 50rem) {
+    div {
+      border: 2px solid blue;
+    }
+  }
 
 
 
@@ -40,20 +45,24 @@ body{
     background-color:lightblue;
     color :rgb(10,50,100);
     text-align: center;
+    text-decoration: seagreen;
     position: sticky;
 
 }
-.container{
-    display: flex;
-    flex-wrap:nowrap;
-    flex-flow: row;
-    align-items: stretch;
+#Fav-Console-choice:hover{
+    color: silver;
 }
-form{
+.New-member-signup{
     color: rgb(110, 26, 14);
     display: flex;
     flex-wrap:nowrap;
     flex-flow: row;
     align-items: stretch;
+}
+.Questions{
+    display: grid;
+    grid-template-rows: 10px;
+    grid-column: auto;
+    grid-row: auto;
 }
 
