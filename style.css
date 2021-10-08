@@ -1,11 +1,59 @@
 h1 {
-    color: #333    
+    color: #333; 
+    display:block;
+    border-top:10mm;
+    margin-top:auto;
+    margin-right: 40Q;
+    padding-left: 60px;
+    max-width: 200;
+    max-height: 75;
 }
-body{
-    background-color:lightblue;
-    color :rgb(10,50,100)
+
+
+
+h3,h2{
+    display:inline;
+    position: relative;
+    border:10px;
+    margin: 1px 1mm 1cm 1em;
+    padding: 1vh 1ch 1rem 1vmax;
 
 }
-footer{
-    color: rgb(110, 26, 14)
+body p{
+    width:1900px;
 }
+h2+p:active{
+    size: 0mm;
+}
+h1 ~ input{
+    color: pink;
+}
+.New-member-signup:active{
+color: red;
+}
+form >button{
+    color:salmon;
+}
+
+body{
+    
+    background-color:lightblue;
+    color :rgb(10,50,100);
+    text-align: center;
+    position: sticky;
+
+}
+.container{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-flow: row;
+    align-items: stretch;
+}
+form{
+    color: rgb(110, 26, 14);
+    display: flex;
+    flex-wrap:nowrap;
+    flex-flow: row;
+    align-items: stretch;
+}
+
